@@ -1,0 +1,11 @@
+.c-1{
+    animation: img 2s ease-in-out;
+}
+@keyframes img{
+    from{
+        transform: translatey(50%);
+    }
+    to{
+        transform: translatey(0%);
+    }
+}
