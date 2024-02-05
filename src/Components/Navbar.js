@@ -17,7 +17,7 @@ const Navbar = ({ size, setShow }) => {
   const NavItems = [
     { title: "HOME", path: "/" },
     { title: "STORE", path: "/Store" },
-    { title: "ABOUT US", path: "/kidswear" },
+    { title: "ABOUT US", path: "/AboutUs" },
     { title: "CONTACT", path: "/sportswear" },
     
     

@@ -70,7 +70,7 @@ const Products = () => {
 
   return (
     <div className="max-w-screen-2xl container mx-auto xl:px-28 px-4">
-      <h2 className="title">Or Subscribe to the newsletter</h2>
+      {/* <h2 className="title">Or Subscribe to the newsletter</h2> */}
 
       {/* product cards */}
       <div>

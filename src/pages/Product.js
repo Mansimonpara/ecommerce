@@ -85,7 +85,7 @@ const Product = ({ handleClick }) => {
                   <h3>{item.Title}</h3>
                   <p className="flex">
                   
-                    {item.Price}
+                  ₹{item.Price}
                   </p>
                   <button
                     onClick={()=>handleClick(item)}
