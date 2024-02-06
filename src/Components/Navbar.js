@@ -18,7 +18,8 @@ const Navbar = ({ size, setShow }) => {
     { title: "HOME", path: "/" },
     { title: "STORE", path: "/Store" },
     { title: "ABOUT US", path: "/AboutUs" },
-    { title: "CONTACT", path: "/sportswear" },
+    { title: "CONTACT US", path: "/ContactUs" },
+  
     
     
   ];
@@ -31,7 +32,7 @@ const Navbar = ({ size, setShow }) => {
         </a>
 
         <div className=" text-lg text-black ml-50 sm:flex  items-center gap-5 hidden ">
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/SignIn" className="flex items-center gap-2">
             <FaUser className="w-5 h-7" />
            
           </Link>
